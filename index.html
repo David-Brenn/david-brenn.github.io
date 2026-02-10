@@ -1,23 +1,130 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8" />
-    <title>Dein Name – Unity Game Developer</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8"/>
+    <title>David Brenn – Unity Game Developer</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
 <header>
-    <h1>Dein Name</h1>
-    <p>Unity Game Developer · Werkstudent · Berlin</p>
+    <h1>David Brenn</h1>
+    <p> Master Student · International Media Computer Science · Berlin</p>
 </header>
+
 
 <section id="projects">
     <h2>Projects</h2>
 
     <div class="project">
-        <h3>Wasteland Courier</h3>
-        <p>VR Cycling Game mit Hardware-Integration.</p>
+        <div class="project-card">
+            <div class="project-header">
+                <h3>Wasteland Courier</h3>
+                <p class="project-tags">
+                    VR · Gameplay Programming · Hardware Integration · Project Management
+                </p>
+            </div>
+
+            <img src="images/wasteland_courier_logo.png" alt="Wasteland Courier" class="project-image"/>
+
+            <p>
+                Wasteland Courier is a post-apocalyptic VR cycling game controlled by a real indoor bicycle trainer.
+                Instead of a traditional controller, the player rides a physical bike, with pedaling, steering,
+                and physical effort directly mapped to the virtual environment.
+
+                The project was part of IMI Showtime 2025/26, where our team presented the game at a public exhibition
+                with a dedicated booth, trailer, and live demo setup.
+            </p>
+
+            <p><strong>My contributions:</strong></p>
+
+            <ul>
+                <li>Project management and coordination within a 5-person team</li>
+                <li>VR setup and hardware integration in Unity</li>
+                <li>Gyroscope-based handlebar steering implementation</li>
+                <li>Bluetooth communication with the bike trainer</li>
+                <li>Player movement and reward systems</li>
+            </ul>
+            <a href="https://showtime.f4.htw-berlin.de/ws25/master/m2-cycle-for-your-life/">Showtime Project Page</a>
+        </div>
+        <div class="project-card">
+            <div class="project-header">
+                <h3>Expedition Survivor</h3>
+                <p class="project-tags">
+                    Multiplayer · Gameplay Programming · Netcode
+                </p>
+            </div>
+
+            <p>
+                <strong>Expedition Survivor</strong> is a first-person multiplayer tower defense and exploration game
+                inspired by cooperative survival titles. The game was developed in a two-person team and is still
+                in active development.
+            </p>
+
+            <p><strong>My contributions:</strong></p>
+
+            <ul>
+                <li>Multiplayer setup and synchronization using Unity Netcode for GameObjects</li>
+                <li>Networked player movement</li>
+                <li>Item and object placement systems</li>
+                <li>Enemy behavior and combat interactions</li>
+                <li>Health and reviving mechanics</li>
+            </ul>
+        </div>
+        <div class="project-card">
+            <div class="project-header">
+                <h3>Astro Dog</h3>
+                <p class="project-tags">
+                    Gameplay Programming · Companion AI · Research-Based Game Design
+                </p>
+            </div>
+
+            <p>
+                <strong>Astro Dog</strong> is a first-person exploration and collection game created as part of a
+                scientific university study. The goal of the study was to investigate how the autonomy of a
+                companion character influences the player’s parasocial bond.
+            </p>
+
+            <p>
+                Two variants of the companion were developed, differing in their level of autonomous behavior.
+            </p>
+
+            <p><strong>My contributions:</strong></p>
+
+            <ul>
+                <li>Companion AI using Unity Behavior Trees</li>
+                <li>Core gameplay systems (movement, item interaction, companion interaction)</li>
+                <li>World creation and level layout</li>
+                <li>Implementation of study-specific gameplay variations</li>
+            </ul>
+            <a href="https://thefefel.itch.io/astro-dog" target="_blank">Download on Itch.io</a>
+        </div>
+        <div class="project-card">
+            <div class="project-header">
+                <h3>Shared Body</h3>
+                <p class="project-tags">
+                    Game Design · Input Systems · State Machines
+                </p>
+            </div>
+
+            <p>
+                <strong>Shared Body</strong> is a cooperative puzzle game combining a physical card game with a
+                tablet-based digital game. Players use real action cards (e.g. move, jump) that are scanned via
+                QR codes using the tablet camera to control a shared character.
+            </p>
+
+            <p>
+                The game focuses on communication, timing, and implicit coordination between players.
+            </p>
+
+            <p><strong>My contributions:</strong></p>
+            <ul>
+                <li>Initial game design concept</li>
+                <li>QR code scanning and input handling</li>
+                <li>State-machine-based player movement system</li>
+                <li>Integration of physical card input into digital gameplay</li>
+            </ul>
+        </div>
     </div>
 
 </section>
