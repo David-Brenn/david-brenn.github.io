@@ -11,6 +11,9 @@ header, h2 {
     text-align: center;
 }
 
+header {
+    padding: 0 1rem;
+}
 
 .project {
     max-width: 1100px;
